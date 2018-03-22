@@ -16,11 +16,11 @@ using System.Windows.Shapes;
 namespace Ex1
 {
     /// <summary>
-    /// Логика взаимодействия для MainWindow.xaml
+    /// Логика взаимодействия для Ex1ReportPage.xaml
     /// </summary>
-    public partial class MainWindow : NavigationWindow
+    public partial class Ex1ReportPage : Page
     {
-        public MainWindow()
+        public Ex1ReportPage()
         {
             InitializeComponent();
         }

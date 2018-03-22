@@ -16,13 +16,22 @@ using System.Windows.Shapes;
 namespace Ex1
 {
     /// <summary>
-    /// Логика взаимодействия для MainWindow.xaml
+    /// Логика взаимодействия для Ex1Home.xaml
     /// </summary>
-    public partial class MainWindow : NavigationWindow
+    public partial class Ex1Home : Page
     {
-        public MainWindow()
+        public Ex1Home()
         {
             InitializeComponent();
         }
+
+        private void Button_Click(object sender, RoutedEventArgs e)
+        {
+            // View Expense Report ExpenseReport
+            Page ex1ReportPage = new Ex1ReportPage();
+            this.NavigationService.Navigate(ex1ReportPage);
+        }
     }
+
+    
 }
